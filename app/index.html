@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binário para Decimal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </link>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de binário para decimal</h1>
+        <label for="inputBin">Binário</label>
+        <input type="text" name="inputBin" id="inputBin" value=""' onkeydown="return validateInput(event)" onkeyup="convertBin2Dec('inputBin', 'outputDec')">
+        <label for="outputDec">Decimal</label>
+        <input type="number" name="outputDec" id="outputDec" value="0" readonly>
+    </div>
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>
